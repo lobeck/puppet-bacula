@@ -19,3 +19,7 @@ PuppetDB is also required for exported resources ("clients" are exporting their 
 Note: Take some time to integrate this module in your environment, bacula is pretty complex.
 
 More to come as soon there is some code.
+
+## License
+
+**cc-by-sa**
