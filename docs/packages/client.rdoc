@@ -28,5 +28,5 @@ Note: Unless otherwise noticed, it is recommended to use hiera for configuration
 === Copyright
 
 This Code is part of puppet-bacula (https://github.com/lobeck/puppet-bacula)
-See LICENSE.md)
+See LICENSE.md
 
