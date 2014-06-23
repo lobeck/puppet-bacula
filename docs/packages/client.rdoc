@@ -8,11 +8,13 @@ Note: Unless otherwise noticed, it is recommended to use hiera for configuration
 
 [*package_name*]
   Name of the bacula client package (default: bacula-client)
-  bacula::packages::client::package_name: bacula-client
+
+  <tt>bacula::packages::client::package_name: bacula-client</tt>
 
 [*package_ensure*]
   Package version to install (default: installed)
-  bacula::packages::client::package_ensure: 5.2.13-1.el6
+
+  <tt>bacula::packages::client::package_ensure: 5.2.13-1.el6</tt>
 
 === Variables
 
