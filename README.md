@@ -22,4 +22,4 @@ More to come as soon there is some code.
 
 ## License
 
-**cc-by-sa**
+[![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
