@@ -28,7 +28,7 @@
 # === Copyright
 #
 # This Code is part of puppet-bacula (https://github.com/lobeck/puppet-bacula)
-# See LICENSE.md)
+# See LICENSE.md
 #
 class bacula::packages::client ($package_name='bacula-client', $package_ensure='installed') {
 
