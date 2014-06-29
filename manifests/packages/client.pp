@@ -2,6 +2,8 @@
 #
 # Basic class to manage the package installation of the bacula client (bacula-fd / FileDaemon)
 #
+# This class is for internal use, but feel free to use it.
+#
 # Note: Unless otherwise noticed, it is recommended to use hiera for configuration
 #
 # === Parameters
@@ -20,10 +22,16 @@
 #
 # === Examples
 #
-#  class { 'bacula::packages::client':
-#      package_name   => 'bacula-client',
-#      package_ensure => 'installed',
-#  }
+# Just include the class and configure everything in hiera:
+#
+#   include bacula::packages::client
+#
+# Additonally you can call the class manually:
+#
+#   class { 'bacula::packages::client':
+#     package_name   => 'bacula-client',
+#     package_ensure => 'installed',
+#   }
 #
 # === Copyright
 #
